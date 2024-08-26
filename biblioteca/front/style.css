@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background: #100045;
+    color: #ffedd1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    & h1 {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+main {
+    width: 100%;
+    height: 38vw;
+    padding: 20px;
+    background: url(https://www.rbsdirect.com.br/filestore/4/5/7/3/2/8/4_607b3d2f9db96c0/4823754_d508394098f8f23.jpg?w=700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & form {
+        margin-top: 20px;
+        background: #100045;
+        width: 450px;
+        border-radius: 5px;
+        padding: 20px;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    & input{
+        width: 350px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    & input[type="submit"] {
+        background: rgb(255, 157, 0);
+        color: black;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        width: 375px;
+    }
+
+}
+
+footer {
+    width: 100%;
+    background: #100045;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
